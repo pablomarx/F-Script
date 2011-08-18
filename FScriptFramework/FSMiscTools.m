@@ -19,7 +19,11 @@
 #include <unistd.h>
 #include <stdio.h>
 #include <limits.h>
-#import <objc/objc-runtime.h>
+#if TARGET_OS_IPHONE
+# import <objc/runtime.h>
+#else
+# import <objc/objc-runtime.h>
+#endif
 
 #if TARGET_OS_IPHONE
 # import <UIKit/UIFont.h>

@@ -12,7 +12,12 @@
 #import "FSBlock.h"
 #import "FSVoid.h"
 #import "FSPattern.h"
-#import <objc/objc-runtime.h>
+#if TARGET_OS_IPHONE
+# import <objc/runtime.h>
+# import <objc/message.h>
+#else
+# import <objc/objc-runtime.h>
+#endif
 #import "FSNumber.h"
 #import "NumberPrivate.h"
 #import "FSCompiler.h"

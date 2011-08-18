@@ -6,9 +6,6 @@
 #import "FSCompiler.h"
 #import <objc/objc.h>
 #import "FScriptFunctions.h"
-#if !GNU_RUNTIME
-#  import "objc/objc-class.h"
-#endif
 #import "string.h"
 #import "FSSymbolTable.h"
 #import "FSExecEngine.h"

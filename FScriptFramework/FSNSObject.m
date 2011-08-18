@@ -17,7 +17,11 @@
 #import "FSKeyedArchiver.h"
 #import "FSArchiver.h"
 #import "FSBlock.h"
-#import <objc/objc-runtime.h>
+#if TARGET_OS_IPHONE
+# import <objc/runtime.h>
+#else
+# import <objc/objc-runtime.h>
+#endif
 #import "FSMiscTools.h"
 #import <objc/objc-api.h>
 #import "FSAssociation.h"

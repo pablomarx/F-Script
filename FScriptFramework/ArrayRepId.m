@@ -11,7 +11,11 @@
 #import "FSBooleanPrivate.h"
 #import "FSCompiler.h"
 #import "FSVoid.h"
-#import <objc/objc-runtime.h>
+#if TARGET_OS_IPHONE
+# import <objc/runtime.h>
+#else
+# import <objc/objc-runtime.h>
+#endif
 #import "FSBlock.h"
 #import "BlockRep.h" 
 #import "BlockPrivate.h"

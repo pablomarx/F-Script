@@ -13,7 +13,12 @@
 #import "FSArray.h"
 #import "FSBooleanPrivate.h"
 #import "FSNSObject.h"
-#import <objc/objc-runtime.h>
+
+#if TARGET_OS_IPHONE
+# import <objc/runtime.h>
+#else
+# import <objc/objc-runtime.h>
+#endif
 
 /* Note: Cocoa implementation of NSProxy is completely broken at the *class* level: most methods in the 
    NSObject protocol are not provided at the class level, the superclass method return incorect results etc.
