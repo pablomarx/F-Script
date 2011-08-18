@@ -103,7 +103,6 @@
 		F14E14B313FADAA900A8A21D /* Number.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E13F713FADAA900A8A21D /* Number.m */; };
 		F14E14B413FADAA900A8A21D /* Pointer.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E13FA13FADAA900A8A21D /* Pointer.m */; };
 		F14E14B713FADAA900A8A21D /* Space.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E140013FADAA900A8A21D /* Space.m */; };
-		F14E14E113FADCB200A8A21D /* _original iphone-sysv.S in Sources */ = {isa = PBXBuildFile; fileRef = F14E14D013FADCB200A8A21D /* _original iphone-sysv.S */; };
 		F14E14E213FADCB200A8A21D /* ffi-iphone.c in Sources */ = {isa = PBXBuildFile; fileRef = F14E14D213FADCB200A8A21D /* ffi-iphone.c */; };
 		F14E14E313FADCB200A8A21D /* ffi-iphonesimulator.c in Sources */ = {isa = PBXBuildFile; fileRef = F14E14D413FADCB200A8A21D /* ffi-iphonesimulator.c */; };
 		F14E14E413FADCB200A8A21D /* iphone-sysv.S in Sources */ = {isa = PBXBuildFile; fileRef = F14E14DB13FADCB200A8A21D /* iphone-sysv.S */; };
@@ -323,7 +322,6 @@
 		F14E13FB13FADAA900A8A21D /* PointerPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointerPrivate.h; sourceTree = "<group>"; };
 		F14E13FF13FADAA900A8A21D /* Space.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Space.h; sourceTree = "<group>"; };
 		F14E140013FADAA900A8A21D /* Space.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Space.m; sourceTree = "<group>"; };
-		F14E14D013FADCB200A8A21D /* _original iphone-sysv.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = "_original iphone-sysv.S"; sourceTree = "<group>"; };
 		F14E14D113FADCB200A8A21D /* ffi_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi_common.h; sourceTree = "<group>"; };
 		F14E14D213FADCB200A8A21D /* ffi-iphone.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "ffi-iphone.c"; sourceTree = "<group>"; };
 		F14E14D313FADCB200A8A21D /* ffi-iphone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ffi-iphone.h"; sourceTree = "<group>"; };
@@ -631,7 +629,6 @@
 		F14E14CF13FADC8700A8A21D /* libffi */ = {
 			isa = PBXGroup;
 			children = (
-				F14E14D013FADCB200A8A21D /* _original iphone-sysv.S */,
 				F14E14D113FADCB200A8A21D /* ffi_common.h */,
 				F14E14D213FADCB200A8A21D /* ffi-iphone.c */,
 				F14E14D313FADCB200A8A21D /* ffi-iphone.h */,
@@ -804,7 +801,6 @@
 				F14E14B313FADAA900A8A21D /* Number.m in Sources */,
 				F14E14B413FADAA900A8A21D /* Pointer.m in Sources */,
 				F14E14B713FADAA900A8A21D /* Space.m in Sources */,
-				F14E14E113FADCB200A8A21D /* _original iphone-sysv.S in Sources */,
 				F14E14E213FADCB200A8A21D /* ffi-iphone.c in Sources */,
 				F14E14E313FADCB200A8A21D /* ffi-iphonesimulator.c in Sources */,
 				F14E14E413FADCB200A8A21D /* iphone-sysv.S in Sources */,
@@ -829,6 +825,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = iOS/FScriptCore_Prefix.pch;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "iOS/FScriptCore-Info.plist";
 				PRODUCT_NAME = FScriptCore;
 			};
@@ -842,6 +839,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = iOS/FScriptCore_Prefix.pch;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "iOS/FScriptCore-Info.plist";
 				PRODUCT_NAME = FScriptCore;
 				VALIDATE_PRODUCT = YES;
