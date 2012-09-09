@@ -115,6 +115,35 @@
 		F14E145813FADAA900A8A21D /* FScriptDict.dic in Resources */ = {isa = PBXBuildFile; fileRef = F14E133F13FADAA800A8A21D /* FScriptDict.dic */; };
 		F14E14F913FADD9200A8A21D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F14E14F813FADD9200A8A21D /* CoreData.framework */; };
 		F14E15E813FAEFD500A8A21D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F14E15E713FAEFD500A8A21D /* AudioToolbox.framework */; };
+		F153053E15FD020A006AE515 /* Array.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E12BF13FADAA800A8A21D /* Array.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F153053F15FD020B006AE515 /* BlockPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E12D913FADAA800A8A21D /* BlockPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F153054015FD020B006AE515 /* FSArray.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E12EE13FADAA800A8A21D /* FSArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F153054115FD020B006AE515 /* FSBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E12F813FADAA800A8A21D /* FSBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F153054215FD020B006AE515 /* FSBoolean.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E12FC13FADAA800A8A21D /* FSBoolean.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F153054315FD020B006AE515 /* FScript.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E133E13FADAA800A8A21D /* FScript.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F153054415FD020B006AE515 /* FScriptFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E134013FADAA800A8A21D /* FScriptFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F153054515FD020B006AE515 /* FSInterpreter.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E135F13FADAA900A8A21D /* FSInterpreter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F153054615FD020B006AE515 /* FSInterpreterResult.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E136213FADAA900A8A21D /* FSInterpreterResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F153054715FD020B006AE515 /* FSNSArray.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E137F13FADAA900A8A21D /* FSNSArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F153054815FD020B006AE515 /* FSNSAttributedString.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E138213FADAA900A8A21D /* FSNSAttributedString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F153054915FD020B006AE515 /* FSNSDate.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E138413FADAA900A8A21D /* FSNSDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F153054A15FD020B006AE515 /* FSNSDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E138613FADAA900A8A21D /* FSNSDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F153054B15FD020B006AE515 /* FSNSManagedObjectContext.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E139013FADAA900A8A21D /* FSNSManagedObjectContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F153054C15FD020B006AE515 /* FSNSMutableArray.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E139213FADAA900A8A21D /* FSNSMutableArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F153054D15FD020B006AE515 /* FSNSMutableDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E139413FADAA900A8A21D /* FSNSMutableDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F153054E15FD020B006AE515 /* FSNSMutableString.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E139613FADAA900A8A21D /* FSNSMutableString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F153054F15FD020B006AE515 /* FSNSNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E139813FADAA900A8A21D /* FSNSNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F153055015FD020B006AE515 /* FSNSObject.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E139A13FADAA900A8A21D /* FSNSObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F153055115FD020B006AE515 /* FSNSProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E139F13FADAA900A8A21D /* FSNSProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F153055215FD020B006AE515 /* FSNSSet.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E13A113FADAA900A8A21D /* FSNSSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F153055315FD020B006AE515 /* FSNSString.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E13A313FADAA900A8A21D /* FSNSString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F153055415FD020B006AE515 /* FSNSValue-iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E13A613FADAA900A8A21D /* FSNSValue-iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F153055515FD020B006AE515 /* FSNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E13A813FADAA900A8A21D /* FSNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F153055615FD020B006AE515 /* FSObjectPointer.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E13C713FADAA900A8A21D /* FSObjectPointer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F153055715FD020B006AE515 /* FSPointer.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E13CE13FADAA900A8A21D /* FSPointer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F153055815FD020B006AE515 /* FSSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E13DD13FADAA900A8A21D /* FSSystem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F153055915FD020B006AE515 /* Number.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E13F613FADAA900A8A21D /* Number.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F153055A15FD020B006AE515 /* Pointer.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E13F913FADAA900A8A21D /* Pointer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -688,6 +717,45 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		F153053C15FD01AB006AE515 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F153053E15FD020A006AE515 /* Array.h in Headers */,
+				F153053F15FD020B006AE515 /* BlockPrivate.h in Headers */,
+				F153054015FD020B006AE515 /* FSArray.h in Headers */,
+				F153054115FD020B006AE515 /* FSBlock.h in Headers */,
+				F153054215FD020B006AE515 /* FSBoolean.h in Headers */,
+				F153054315FD020B006AE515 /* FScript.h in Headers */,
+				F153054415FD020B006AE515 /* FScriptFunctions.h in Headers */,
+				F153054515FD020B006AE515 /* FSInterpreter.h in Headers */,
+				F153054615FD020B006AE515 /* FSInterpreterResult.h in Headers */,
+				F153054715FD020B006AE515 /* FSNSArray.h in Headers */,
+				F153054815FD020B006AE515 /* FSNSAttributedString.h in Headers */,
+				F153054915FD020B006AE515 /* FSNSDate.h in Headers */,
+				F153054A15FD020B006AE515 /* FSNSDictionary.h in Headers */,
+				F153054B15FD020B006AE515 /* FSNSManagedObjectContext.h in Headers */,
+				F153054C15FD020B006AE515 /* FSNSMutableArray.h in Headers */,
+				F153054D15FD020B006AE515 /* FSNSMutableDictionary.h in Headers */,
+				F153054E15FD020B006AE515 /* FSNSMutableString.h in Headers */,
+				F153054F15FD020B006AE515 /* FSNSNumber.h in Headers */,
+				F153055015FD020B006AE515 /* FSNSObject.h in Headers */,
+				F153055115FD020B006AE515 /* FSNSProxy.h in Headers */,
+				F153055215FD020B006AE515 /* FSNSSet.h in Headers */,
+				F153055315FD020B006AE515 /* FSNSString.h in Headers */,
+				F153055415FD020B006AE515 /* FSNSValue-iOS.h in Headers */,
+				F153055515FD020B006AE515 /* FSNumber.h in Headers */,
+				F153055615FD020B006AE515 /* FSObjectPointer.h in Headers */,
+				F153055715FD020B006AE515 /* FSPointer.h in Headers */,
+				F153055815FD020B006AE515 /* FSSystem.h in Headers */,
+				F153055915FD020B006AE515 /* Number.h in Headers */,
+				F153055A15FD020B006AE515 /* Pointer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		1D6058900D05DD3D006BFB54 /* FScriptDemo */ = {
 			isa = PBXNativeTarget;
@@ -713,6 +781,7 @@
 			buildPhases = (
 				F13E4DE615FCFA580078560A /* Sources */,
 				F13E4DE715FCFA580078560A /* Frameworks */,
+				F153053C15FD01AB006AE515 /* Headers */,
 				F13E4DE815FCFA580078560A /* CopyFiles */,
 			);
 			buildRules = (
@@ -970,7 +1039,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = /usr/local/include/FScript;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = /usr/local/include/FScript;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -990,7 +1061,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = /usr/local/include/FScript;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = /usr/local/include/FScript;
 				SKIP_INSTALL = YES;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1024,6 +1097,7 @@
 				F13E4DF515FCFA580078560A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
