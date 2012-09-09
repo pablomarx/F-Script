@@ -828,6 +828,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = iOS/FScriptCore_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "iOS/FScriptCore-Info.plist";
 				PRODUCT_NAME = FScriptCore;
@@ -842,6 +843,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = iOS/FScriptCore_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "iOS/FScriptCore-Info.plist";
 				PRODUCT_NAME = FScriptCore;
