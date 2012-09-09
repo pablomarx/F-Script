@@ -13,119 +13,180 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
-		F14E141513FADAA900A8A21D /* Array.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E12C013FADAA800A8A21D /* Array.m */; };
-		F14E141613FADAA900A8A21D /* ArrayRepBoolean.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E12C413FADAA800A8A21D /* ArrayRepBoolean.m */; };
-		F14E141913FADAA900A8A21D /* ArrayRepDouble.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E12CA13FADAA800A8A21D /* ArrayRepDouble.m */; };
-		F14E141A13FADAA900A8A21D /* ArrayRepEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E12CC13FADAA800A8A21D /* ArrayRepEmpty.m */; };
-		F14E141B13FADAA900A8A21D /* ArrayRepFetchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E12CE13FADAA800A8A21D /* ArrayRepFetchRequest.m */; };
-		F14E141C13FADAA900A8A21D /* ArrayRepId.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E12D013FADAA800A8A21D /* ArrayRepId.m */; };
-		F14E141F13FADAA900A8A21D /* Block.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E12D413FADAA800A8A21D /* Block.m */; };
-		F14E142313FADAA900A8A21D /* BlockRep.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E12DB13FADAA800A8A21D /* BlockRep.m */; };
-		F14E142413FADAA900A8A21D /* BlockStackElem.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E12DE13FADAA800A8A21D /* BlockStackElem.m */; };
-		F14E142713FADAA900A8A21D /* CompiledCodeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E12E413FADAA800A8A21D /* CompiledCodeNode.m */; };
+		F12153A315FCEB2C00008418 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		F12153AE15FCEB6200008418 /* prep_cif.c in Sources */ = {isa = PBXBuildFile; fileRef = F14E14DE13FADCB200A8A21D /* prep_cif.c */; };
+		F12153AF15FCEB6200008418 /* raw_api.c in Sources */ = {isa = PBXBuildFile; fileRef = F14E14DF13FADCB200A8A21D /* raw_api.c */; };
+		F12153B015FCEB6200008418 /* types.c in Sources */ = {isa = PBXBuildFile; fileRef = F14E14E013FADCB200A8A21D /* types.c */; };
+		F12153B115FCEB6A00008418 /* iphone-sysv.S in Sources */ = {isa = PBXBuildFile; fileRef = F14E14DB13FADCB200A8A21D /* iphone-sysv.S */; };
+		F12153B215FCEB6A00008418 /* iphonesimulator-darwin.S in Sources */ = {isa = PBXBuildFile; fileRef = F14E14DC13FADCB200A8A21D /* iphonesimulator-darwin.S */; };
+		F12153B315FCEB6F00008418 /* ffi-iphone.c in Sources */ = {isa = PBXBuildFile; fileRef = F14E14D213FADCB200A8A21D /* ffi-iphone.c */; };
+		F12153B415FCEB6F00008418 /* ffi-iphonesimulator.c in Sources */ = {isa = PBXBuildFile; fileRef = F14E14D413FADCB200A8A21D /* ffi-iphonesimulator.c */; };
+		F12153B515FCEB9000008418 /* Array.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E12C013FADAA800A8A21D /* Array.m */; };
+		F12153B615FCEB9000008418 /* ArrayRepBoolean.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E12C413FADAA800A8A21D /* ArrayRepBoolean.m */; };
+		F12153B715FCEB9000008418 /* ArrayRepDouble.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E12CA13FADAA800A8A21D /* ArrayRepDouble.m */; };
+		F12153B815FCEB9000008418 /* ArrayRepEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E12CC13FADAA800A8A21D /* ArrayRepEmpty.m */; };
+		F12153B915FCEB9000008418 /* ArrayRepFetchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E12CE13FADAA800A8A21D /* ArrayRepFetchRequest.m */; };
+		F12153BA15FCEB9000008418 /* ArrayRepId.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E12D013FADAA800A8A21D /* ArrayRepId.m */; };
+		F12153BB15FCEB9000008418 /* Block.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E12D413FADAA800A8A21D /* Block.m */; };
+		F12153BC15FCEB9000008418 /* BlockRep.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E12DB13FADAA800A8A21D /* BlockRep.m */; };
+		F12153BD15FCEB9000008418 /* BlockStackElem.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E12DE13FADAA800A8A21D /* BlockStackElem.m */; };
+		F12153BE15FCEB9000008418 /* CompiledCodeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E12E413FADAA800A8A21D /* CompiledCodeNode.m */; };
+		F12153BF15FCEB9000008418 /* FSArchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E12ED13FADAA800A8A21D /* FSArchiver.m */; };
+		F12153C015FCEB9000008418 /* FSArray.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E12EF13FADAA800A8A21D /* FSArray.m */; };
+		F12153C115FCEB9000008418 /* FSArrayEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E12F113FADAA800A8A21D /* FSArrayEnumerator.m */; };
+		F12153C215FCEB9000008418 /* FSAssociation.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E12F313FADAA800A8A21D /* FSAssociation.m */; };
+		F12153C315FCEB9000008418 /* FSBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E12F913FADAA800A8A21D /* FSBlock.m */; };
+		F12153C415FCEB9000008418 /* FSBlockCompilationResult.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E12FB13FADAA800A8A21D /* FSBlockCompilationResult.m */; };
+		F12153C515FCEB9000008418 /* FSBoolean.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E12FD13FADAA800A8A21D /* FSBoolean.m */; };
+		F12153C615FCEB9000008418 /* FSClassDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E130013FADAA800A8A21D /* FSClassDefinition.m */; };
+		F12153C715FCEB9000008418 /* FSCNArray.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E130213FADAA800A8A21D /* FSCNArray.m */; };
+		F12153C815FCEB9000008418 /* FSCNAssignment.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E130413FADAA800A8A21D /* FSCNAssignment.m */; };
+		F12153C915FCEB9000008418 /* FSCNBase.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E130613FADAA800A8A21D /* FSCNBase.m */; };
+		F12153CA15FCEB9000008418 /* FSCNBinaryMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E130813FADAA800A8A21D /* FSCNBinaryMessage.m */; };
+		F12153CB15FCEB9000008418 /* FSCNBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E130A13FADAA800A8A21D /* FSCNBlock.m */; };
+		F12153CC15FCEB9000008418 /* FSCNCascade.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E130C13FADAA800A8A21D /* FSCNCascade.m */; };
+		F12153CD15FCEB9000008418 /* FSCNCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E130E13FADAA800A8A21D /* FSCNCategory.m */; };
+		F12153CE15FCEB9000008418 /* FSCNClassDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E131013FADAA800A8A21D /* FSCNClassDefinition.m */; };
+		F12153CF15FCEB9000008418 /* FSCNDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E131213FADAA800A8A21D /* FSCNDictionary.m */; };
+		F12153D015FCEB9000008418 /* FSCNIdentifier.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E131413FADAA800A8A21D /* FSCNIdentifier.m */; };
+		F12153D115FCEB9000008418 /* FSCNKeywordMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E131613FADAA800A8A21D /* FSCNKeywordMessage.m */; };
+		F12153D215FCEB9000008418 /* FSCNMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E131813FADAA800A8A21D /* FSCNMessage.m */; };
+		F12153D315FCEB9000008418 /* FSCNMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E131A13FADAA800A8A21D /* FSCNMethod.m */; };
+		F12153D415FCEB9000008418 /* FSCNPrecomputedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E131C13FADAA800A8A21D /* FSCNPrecomputedObject.m */; };
+		F12153D515FCEB9000008418 /* FSCNReturn.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E131E13FADAA800A8A21D /* FSCNReturn.m */; };
+		F12153D615FCEB9000008418 /* FSCNStatementList.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E132013FADAA800A8A21D /* FSCNStatementList.m */; };
+		F12153D715FCEB9000008418 /* FSCNSuper.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E132213FADAA800A8A21D /* FSCNSuper.m */; };
+		F12153D815FCEB9000008418 /* FSCNUnaryMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E132413FADAA800A8A21D /* FSCNUnaryMessage.m */; };
+		F12153D915FCEB9000008418 /* FSCommandHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E133013FADAA800A8A21D /* FSCommandHistory.m */; };
+		F12153DA15FCEB9000008418 /* FSCompilationResult.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E133213FADAA800A8A21D /* FSCompilationResult.m */; };
+		F12153DB15FCEB9000008418 /* FSCompiler.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E133413FADAA800A8A21D /* FSCompiler.m */; };
+		F12153DC15FCEB9000008418 /* FSConstantsInitialization.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E133B13FADAA800A8A21D /* FSConstantsInitialization.m */; };
+		F12153DD15FCEB9000008418 /* FScriptFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E134113FADAA800A8A21D /* FScriptFunctions.m */; };
+		F12153DE15FCEB9000008418 /* FSError.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E134A13FADAA800A8A21D /* FSError.m */; };
+		F12153DF15FCEB9000008418 /* FSExecEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E134C13FADAA900A8A21D /* FSExecEngine.m */; };
+		F12153E015FCEB9000008418 /* FSExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E134E13FADAA900A8A21D /* FSExecutor.m */; };
+		F12153E115FCEB9000008418 /* FSGenericPointer.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E135413FADAA900A8A21D /* FSGenericPointer.m */; };
+		F12153E215FCEB9000008418 /* FSGlobalScope.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E135713FADAA900A8A21D /* FSGlobalScope.m */; };
+		F12153E315FCEB9000008418 /* FSIdentifierFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E135913FADAA900A8A21D /* FSIdentifierFormatter.m */; };
+		F12153E415FCEB9000008418 /* FSInterpreter.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E136013FADAA900A8A21D /* FSInterpreter.m */; };
+		F12153E515FCEB9000008418 /* FSInterpreterResult.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E136313FADAA900A8A21D /* FSInterpreterResult.m */; };
+		F12153E615FCEB9000008418 /* FSKeyedArchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E136A13FADAA900A8A21D /* FSKeyedArchiver.m */; };
+		F12153E715FCEB9000008418 /* FSKeyedUnarchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E136C13FADAA900A8A21D /* FSKeyedUnarchiver.m */; };
+		F12153E815FCEB9000008418 /* FSMethod-iOS.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E137113FADAA900A8A21D /* FSMethod-iOS.m */; };
+		F12153E915FCEB9000008418 /* FSMiscTools.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E137313FADAA900A8A21D /* FSMiscTools.m */; };
+		F12153EA15FCEB9000008418 /* FSMsgContext.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E137813FADAA900A8A21D /* FSMsgContext.m */; };
+		F12153EB15FCEB9000008418 /* FSNamedNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E137A13FADAA900A8A21D /* FSNamedNumber.m */; };
+		F12153EC15FCEB9000008418 /* FSNewlyAllocatedObjectHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E137C13FADAA900A8A21D /* FSNewlyAllocatedObjectHolder.m */; };
+		F12153ED15FCEB9000008418 /* FSNSArray.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E138013FADAA900A8A21D /* FSNSArray.m */; };
+		F12153EE15FCEB9000008418 /* FSNSAttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E138313FADAA900A8A21D /* FSNSAttributedString.m */; };
+		F12153EF15FCEB9000008418 /* FSNSDate.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E138513FADAA900A8A21D /* FSNSDate.m */; };
+		F12153F015FCEB9000008418 /* FSNSDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E138713FADAA900A8A21D /* FSNSDictionary.m */; };
+		F12153F115FCEB9000008418 /* FSNSFileHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E138B13FADAA900A8A21D /* FSNSFileHandle.m */; };
+		F12153F215FCEB9000008418 /* FSNSManagedObjectContext.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E139113FADAA900A8A21D /* FSNSManagedObjectContext.m */; };
+		F12153F315FCEB9000008418 /* FSNSMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E139313FADAA900A8A21D /* FSNSMutableArray.m */; };
+		F12153F415FCEB9000008418 /* FSNSMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E139513FADAA900A8A21D /* FSNSMutableDictionary.m */; };
+		F12153F515FCEB9000008418 /* FSNSMutableString.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E139713FADAA900A8A21D /* FSNSMutableString.m */; };
+		F12153F615FCEB9000008418 /* FSNSNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E139913FADAA900A8A21D /* FSNSNumber.m */; };
+		F12153F715FCEB9000008418 /* FSNSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E139B13FADAA900A8A21D /* FSNSObject.m */; };
+		F12153F815FCEB9000008418 /* FSNSProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E13A013FADAA900A8A21D /* FSNSProxy.m */; };
+		F12153F915FCEB9000008418 /* FSNSSet.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E13A213FADAA900A8A21D /* FSNSSet.m */; };
+		F12153FA15FCEB9000008418 /* FSNSString.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E13A413FADAA900A8A21D /* FSNSString.m */; };
+		F12153FB15FCEB9000008418 /* FSNSValue-iOS.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E13A713FADAA900A8A21D /* FSNSValue-iOS.m */; };
+		F12153FC15FCEB9000008418 /* FSNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E13A913FADAA900A8A21D /* FSNumber.m */; };
+		F12153FD15FCEB9000008418 /* FSObjectFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E13C613FADAA900A8A21D /* FSObjectFormatter.m */; };
+		F12153FE15FCEB9000008418 /* FSObjectPointer.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E13C813FADAA900A8A21D /* FSObjectPointer.m */; };
+		F12153FF15FCEB9000008418 /* FSPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E13CB13FADAA900A8A21D /* FSPattern.m */; };
+		F121540015FCEB9000008418 /* FSPointer.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E13CF13FADAA900A8A21D /* FSPointer.m */; };
+		F121540115FCEB9000008418 /* FSReplacementForCoderForClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E13D613FADAA900A8A21D /* FSReplacementForCoderForClass.m */; };
+		F121540215FCEB9000008418 /* FSReplacementForCoderForNilInArray.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E13D813FADAA900A8A21D /* FSReplacementForCoderForNilInArray.m */; };
+		F121540315FCEB9000008418 /* FSReturnSignal.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E13DA13FADAA900A8A21D /* FSReturnSignal.m */; };
+		F121540415FCEB9000008418 /* FSSymbolTable.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E13DC13FADAA900A8A21D /* FSSymbolTable.m */; };
+		F121540515FCEB9000008418 /* FSSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E13DE13FADAA900A8A21D /* FSSystem.m */; };
+		F121540615FCEB9000008418 /* FSTranscript.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E13E613FADAA900A8A21D /* FSTranscript.m */; };
+		F121540715FCEB9000008418 /* FSUnarchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E13E813FADAA900A8A21D /* FSUnarchiver.m */; };
+		F121540815FCEB9000008418 /* FSVoid.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E13EA13FADAA900A8A21D /* FSVoid.m */; };
+		F121540915FCEB9000008418 /* MessagePatternCodeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E13F513FADAA900A8A21D /* MessagePatternCodeNode.m */; };
+		F121540A15FCEB9000008418 /* Number.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E13F713FADAA900A8A21D /* Number.m */; };
+		F121540B15FCEB9000008418 /* Pointer.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E13FA13FADAA900A8A21D /* Pointer.m */; };
+		F121540C15FCEB9000008418 /* Space.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E140013FADAA900A8A21D /* Space.m */; };
+		F121540D15FCEBB100008418 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		F121540E15FCEBB600008418 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		F121540F15FCEBBB00008418 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F14E14F813FADD9200A8A21D /* CoreData.framework */; };
+		F121541015FCEBC100008418 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F14E15E713FAEFD500A8A21D /* AudioToolbox.framework */; };
+		F121541315FCEC0000008418 /* libFScript.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F12153A215FCEB2C00008418 /* libFScript.a */; };
+		F121541515FCEDB500008418 /* Array.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E12BF13FADAA800A8A21D /* Array.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F121541615FCEDB500008418 /* Block.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E12D313FADAA800A8A21D /* Block.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F121541715FCEDB500008418 /* FSArray.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E12EE13FADAA800A8A21D /* FSArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F121541815FCEDB500008418 /* FSAssociation.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E12F213FADAA800A8A21D /* FSAssociation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F121541915FCEDB500008418 /* FSBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E12F813FADAA800A8A21D /* FSBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F121541A15FCEDB500008418 /* FSBoolean.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E12FC13FADAA800A8A21D /* FSBoolean.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F121541B15FCEDFA00008418 /* FScript.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E133E13FADAA800A8A21D /* FScript.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F121541C15FCEDFA00008418 /* FSGenericPointer.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E135313FADAA900A8A21D /* FSGenericPointer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F121541D15FCEDFA00008418 /* FSInterpreter.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E135F13FADAA900A8A21D /* FSInterpreter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F121541E15FCEDFA00008418 /* FSInterpreterResult.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E136213FADAA900A8A21D /* FSInterpreterResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F121541F15FCEDFA00008418 /* FSNSArray.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E137F13FADAA900A8A21D /* FSNSArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F121542015FCEDFA00008418 /* FSNSAttributedString.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E138213FADAA900A8A21D /* FSNSAttributedString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F121542115FCEDFA00008418 /* FSNSDate.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E138413FADAA900A8A21D /* FSNSDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F121542215FCEDFA00008418 /* FSNSDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E138613FADAA900A8A21D /* FSNSDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F121542315FCEDFA00008418 /* FSNSManagedObjectContext.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E139013FADAA900A8A21D /* FSNSManagedObjectContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F121542415FCEDFA00008418 /* FSNSMutableArray.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E139213FADAA900A8A21D /* FSNSMutableArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F121542515FCEDFA00008418 /* FSNSMutableDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E139413FADAA900A8A21D /* FSNSMutableDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F121542615FCEDFA00008418 /* FSNSMutableString.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E139613FADAA900A8A21D /* FSNSMutableString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F121542715FCEDFA00008418 /* FSNSNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E139813FADAA900A8A21D /* FSNSNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F121542815FCEDFA00008418 /* FSNSObject.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E139A13FADAA900A8A21D /* FSNSObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F121542915FCEDFA00008418 /* FSNSProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E139F13FADAA900A8A21D /* FSNSProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F121542A15FCEDFA00008418 /* FSNSSet.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E13A113FADAA900A8A21D /* FSNSSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F121542B15FCEDFA00008418 /* FSNSString.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E13A313FADAA900A8A21D /* FSNSString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F121542C15FCEDFA00008418 /* FSNSValue-iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E13A613FADAA900A8A21D /* FSNSValue-iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F121542D15FCEDFA00008418 /* FSNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E13A813FADAA900A8A21D /* FSNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F121542E15FCEDFA00008418 /* FSObjectPointer.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E13C713FADAA900A8A21D /* FSObjectPointer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F121542F15FCEDFA00008418 /* FSPointer.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E13CE13FADAA900A8A21D /* FSPointer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F121543015FCEDFA00008418 /* FSSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E13DD13FADAA900A8A21D /* FSSystem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F121543115FCEDFA00008418 /* FSVoid.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E13E913FADAA900A8A21D /* FSVoid.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F121543215FCEDFA00008418 /* Number.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E13F613FADAA900A8A21D /* Number.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F121543315FCEDFA00008418 /* Pointer.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E13F913FADAA900A8A21D /* Pointer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F14E142813FADAA900A8A21D /* constantsDictionary in Resources */ = {isa = PBXBuildFile; fileRef = F14E12E513FADAA800A8A21D /* constantsDictionary */; };
-		F14E142D13FADAA900A8A21D /* FSArchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E12ED13FADAA800A8A21D /* FSArchiver.m */; };
-		F14E142E13FADAA900A8A21D /* FSArray.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E12EF13FADAA800A8A21D /* FSArray.m */; };
-		F14E142F13FADAA900A8A21D /* FSArrayEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E12F113FADAA800A8A21D /* FSArrayEnumerator.m */; };
-		F14E143013FADAA900A8A21D /* FSAssociation.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E12F313FADAA800A8A21D /* FSAssociation.m */; };
-		F14E143413FADAA900A8A21D /* FSBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E12F913FADAA800A8A21D /* FSBlock.m */; };
-		F14E143513FADAA900A8A21D /* FSBlockCompilationResult.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E12FB13FADAA800A8A21D /* FSBlockCompilationResult.m */; };
-		F14E143613FADAA900A8A21D /* FSBoolean.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E12FD13FADAA800A8A21D /* FSBoolean.m */; };
-		F14E143713FADAA900A8A21D /* FSClassDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E130013FADAA800A8A21D /* FSClassDefinition.m */; };
-		F14E143813FADAA900A8A21D /* FSCNArray.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E130213FADAA800A8A21D /* FSCNArray.m */; };
-		F14E143913FADAA900A8A21D /* FSCNAssignment.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E130413FADAA800A8A21D /* FSCNAssignment.m */; };
-		F14E143A13FADAA900A8A21D /* FSCNBase.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E130613FADAA800A8A21D /* FSCNBase.m */; };
-		F14E143B13FADAA900A8A21D /* FSCNBinaryMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E130813FADAA800A8A21D /* FSCNBinaryMessage.m */; };
-		F14E143C13FADAA900A8A21D /* FSCNBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E130A13FADAA800A8A21D /* FSCNBlock.m */; };
-		F14E143D13FADAA900A8A21D /* FSCNCascade.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E130C13FADAA800A8A21D /* FSCNCascade.m */; };
-		F14E143E13FADAA900A8A21D /* FSCNCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E130E13FADAA800A8A21D /* FSCNCategory.m */; };
-		F14E143F13FADAA900A8A21D /* FSCNClassDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E131013FADAA800A8A21D /* FSCNClassDefinition.m */; };
-		F14E144013FADAA900A8A21D /* FSCNDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E131213FADAA800A8A21D /* FSCNDictionary.m */; };
-		F14E144113FADAA900A8A21D /* FSCNIdentifier.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E131413FADAA800A8A21D /* FSCNIdentifier.m */; };
-		F14E144213FADAA900A8A21D /* FSCNKeywordMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E131613FADAA800A8A21D /* FSCNKeywordMessage.m */; };
-		F14E144313FADAA900A8A21D /* FSCNMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E131813FADAA800A8A21D /* FSCNMessage.m */; };
-		F14E144413FADAA900A8A21D /* FSCNMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E131A13FADAA800A8A21D /* FSCNMethod.m */; };
-		F14E144513FADAA900A8A21D /* FSCNPrecomputedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E131C13FADAA800A8A21D /* FSCNPrecomputedObject.m */; };
-		F14E144613FADAA900A8A21D /* FSCNReturn.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E131E13FADAA800A8A21D /* FSCNReturn.m */; };
-		F14E144713FADAA900A8A21D /* FSCNStatementList.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E132013FADAA800A8A21D /* FSCNStatementList.m */; };
-		F14E144813FADAA900A8A21D /* FSCNSuper.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E132213FADAA800A8A21D /* FSCNSuper.m */; };
-		F14E144913FADAA900A8A21D /* FSCNUnaryMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E132413FADAA800A8A21D /* FSCNUnaryMessage.m */; };
-		F14E145013FADAA900A8A21D /* FSCommandHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E133013FADAA800A8A21D /* FSCommandHistory.m */; };
-		F14E145113FADAA900A8A21D /* FSCompilationResult.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E133213FADAA800A8A21D /* FSCompilationResult.m */; };
-		F14E145213FADAA900A8A21D /* FSCompiler.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E133413FADAA800A8A21D /* FSCompiler.m */; };
-		F14E145613FADAA900A8A21D /* FSConstantsInitialization.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E133B13FADAA800A8A21D /* FSConstantsInitialization.m */; };
 		F14E145813FADAA900A8A21D /* FScriptDict.dic in Resources */ = {isa = PBXBuildFile; fileRef = F14E133F13FADAA800A8A21D /* FScriptDict.dic */; };
-		F14E145913FADAA900A8A21D /* FScriptFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E134113FADAA800A8A21D /* FScriptFunctions.m */; };
-		F14E145E13FADAA900A8A21D /* FSError.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E134A13FADAA800A8A21D /* FSError.m */; };
-		F14E145F13FADAA900A8A21D /* FSExecEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E134C13FADAA900A8A21D /* FSExecEngine.m */; };
-		F14E146013FADAA900A8A21D /* FSExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E134E13FADAA900A8A21D /* FSExecutor.m */; };
-		F14E146313FADAA900A8A21D /* FSGenericPointer.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E135413FADAA900A8A21D /* FSGenericPointer.m */; };
-		F14E146413FADAA900A8A21D /* FSGlobalScope.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E135713FADAA900A8A21D /* FSGlobalScope.m */; };
-		F14E146513FADAA900A8A21D /* FSIdentifierFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E135913FADAA900A8A21D /* FSIdentifierFormatter.m */; };
-		F14E146913FADAA900A8A21D /* FSInterpreter.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E136013FADAA900A8A21D /* FSInterpreter.m */; };
-		F14E146A13FADAA900A8A21D /* FSInterpreterResult.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E136313FADAA900A8A21D /* FSInterpreterResult.m */; };
-		F14E146C13FADAA900A8A21D /* FSKeyedArchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E136A13FADAA900A8A21D /* FSKeyedArchiver.m */; };
-		F14E146D13FADAA900A8A21D /* FSKeyedUnarchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E136C13FADAA900A8A21D /* FSKeyedUnarchiver.m */; };
-		F14E147013FADAA900A8A21D /* FSMethod-iOS.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E137113FADAA900A8A21D /* FSMethod-iOS.m */; };
-		F14E147113FADAA900A8A21D /* FSMiscTools.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E137313FADAA900A8A21D /* FSMiscTools.m */; };
-		F14E147413FADAA900A8A21D /* FSMsgContext.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E137813FADAA900A8A21D /* FSMsgContext.m */; };
-		F14E147513FADAA900A8A21D /* FSNamedNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E137A13FADAA900A8A21D /* FSNamedNumber.m */; };
-		F14E147613FADAA900A8A21D /* FSNewlyAllocatedObjectHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E137C13FADAA900A8A21D /* FSNewlyAllocatedObjectHolder.m */; };
-		F14E147813FADAA900A8A21D /* FSNSArray.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E138013FADAA900A8A21D /* FSNSArray.m */; };
-		F14E147913FADAA900A8A21D /* FSNSAttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E138313FADAA900A8A21D /* FSNSAttributedString.m */; };
-		F14E147A13FADAA900A8A21D /* FSNSDate.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E138513FADAA900A8A21D /* FSNSDate.m */; };
-		F14E147B13FADAA900A8A21D /* FSNSDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E138713FADAA900A8A21D /* FSNSDictionary.m */; };
-		F14E147D13FADAA900A8A21D /* FSNSFileHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E138B13FADAA900A8A21D /* FSNSFileHandle.m */; };
-		F14E148013FADAA900A8A21D /* FSNSManagedObjectContext.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E139113FADAA900A8A21D /* FSNSManagedObjectContext.m */; };
-		F14E148113FADAA900A8A21D /* FSNSMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E139313FADAA900A8A21D /* FSNSMutableArray.m */; };
-		F14E148213FADAA900A8A21D /* FSNSMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E139513FADAA900A8A21D /* FSNSMutableDictionary.m */; };
-		F14E148313FADAA900A8A21D /* FSNSMutableString.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E139713FADAA900A8A21D /* FSNSMutableString.m */; };
-		F14E148413FADAA900A8A21D /* FSNSNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E139913FADAA900A8A21D /* FSNSNumber.m */; };
-		F14E148513FADAA900A8A21D /* FSNSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E139B13FADAA900A8A21D /* FSNSObject.m */; };
-		F14E148713FADAA900A8A21D /* FSNSProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E13A013FADAA900A8A21D /* FSNSProxy.m */; };
-		F14E148813FADAA900A8A21D /* FSNSSet.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E13A213FADAA900A8A21D /* FSNSSet.m */; };
-		F14E148913FADAA900A8A21D /* FSNSString.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E13A413FADAA900A8A21D /* FSNSString.m */; };
-		F14E148A13FADAA900A8A21D /* FSNSValue-iOS.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E13A713FADAA900A8A21D /* FSNSValue-iOS.m */; };
-		F14E148B13FADAA900A8A21D /* FSNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E13A913FADAA900A8A21D /* FSNumber.m */; };
-		F14E149A13FADAA900A8A21D /* FSObjectFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E13C613FADAA900A8A21D /* FSObjectFormatter.m */; };
-		F14E149B13FADAA900A8A21D /* FSObjectPointer.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E13C813FADAA900A8A21D /* FSObjectPointer.m */; };
-		F14E149C13FADAA900A8A21D /* FSPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E13CB13FADAA900A8A21D /* FSPattern.m */; };
-		F14E149E13FADAA900A8A21D /* FSPointer.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E13CF13FADAA900A8A21D /* FSPointer.m */; };
-		F14E14A113FADAA900A8A21D /* FSReplacementForCoderForClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E13D613FADAA900A8A21D /* FSReplacementForCoderForClass.m */; };
-		F14E14A213FADAA900A8A21D /* FSReplacementForCoderForNilInArray.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E13D813FADAA900A8A21D /* FSReplacementForCoderForNilInArray.m */; };
-		F14E14A313FADAA900A8A21D /* FSReturnSignal.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E13DA13FADAA900A8A21D /* FSReturnSignal.m */; };
-		F14E14A413FADAA900A8A21D /* FSSymbolTable.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E13DC13FADAA900A8A21D /* FSSymbolTable.m */; };
-		F14E14A513FADAA900A8A21D /* FSSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E13DE13FADAA900A8A21D /* FSSystem.m */; };
-		F14E14A913FADAA900A8A21D /* FSTranscript.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E13E613FADAA900A8A21D /* FSTranscript.m */; };
-		F14E14AA13FADAA900A8A21D /* FSUnarchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E13E813FADAA900A8A21D /* FSUnarchiver.m */; };
-		F14E14AB13FADAA900A8A21D /* FSVoid.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E13EA13FADAA900A8A21D /* FSVoid.m */; };
-		F14E14B213FADAA900A8A21D /* MessagePatternCodeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E13F513FADAA900A8A21D /* MessagePatternCodeNode.m */; };
-		F14E14B313FADAA900A8A21D /* Number.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E13F713FADAA900A8A21D /* Number.m */; };
-		F14E14B413FADAA900A8A21D /* Pointer.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E13FA13FADAA900A8A21D /* Pointer.m */; };
-		F14E14B713FADAA900A8A21D /* Space.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E140013FADAA900A8A21D /* Space.m */; };
-		F14E14E213FADCB200A8A21D /* ffi-iphone.c in Sources */ = {isa = PBXBuildFile; fileRef = F14E14D213FADCB200A8A21D /* ffi-iphone.c */; };
-		F14E14E313FADCB200A8A21D /* ffi-iphonesimulator.c in Sources */ = {isa = PBXBuildFile; fileRef = F14E14D413FADCB200A8A21D /* ffi-iphonesimulator.c */; };
-		F14E14E413FADCB200A8A21D /* iphone-sysv.S in Sources */ = {isa = PBXBuildFile; fileRef = F14E14DB13FADCB200A8A21D /* iphone-sysv.S */; };
-		F14E14E513FADCB200A8A21D /* iphonesimulator-darwin.S in Sources */ = {isa = PBXBuildFile; fileRef = F14E14DC13FADCB200A8A21D /* iphonesimulator-darwin.S */; };
-		F14E14E713FADCB200A8A21D /* prep_cif.c in Sources */ = {isa = PBXBuildFile; fileRef = F14E14DE13FADCB200A8A21D /* prep_cif.c */; };
-		F14E14E813FADCB200A8A21D /* raw_api.c in Sources */ = {isa = PBXBuildFile; fileRef = F14E14DF13FADCB200A8A21D /* raw_api.c */; };
-		F14E14E913FADCB200A8A21D /* types.c in Sources */ = {isa = PBXBuildFile; fileRef = F14E14E013FADCB200A8A21D /* types.c */; };
 		F14E14F913FADD9200A8A21D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F14E14F813FADD9200A8A21D /* CoreData.framework */; };
 		F14E157413FAEB3800A8A21D /* iOS-glue.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E157313FAEB3800A8A21D /* iOS-glue.m */; };
 		F14E15E813FAEFD500A8A21D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F14E15E713FAEFD500A8A21D /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		F121541115FCEBF900008418 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F12153A115FCEB2C00008418;
+			remoteInfo = FScript;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F12153A015FCEB2C00008418 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* FScriptCoreAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FScriptCoreAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* FScriptCoreAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FScriptCoreAppDelegate.m; sourceTree = "<group>"; };
-		1D6058910D05DD3D006BFB54 /* FScriptCore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FScriptCore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6058910D05DD3D006BFB54 /* FScriptDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FScriptDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = iOS/MainWindow.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = iOS/main.m; sourceTree = "<group>"; };
-		32CA4F630368D1EE00C91783 /* FScriptCore_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FScriptCore_Prefix.pch; path = iOS/FScriptCore_Prefix.pch; sourceTree = "<group>"; };
-		8D1107310486CEB800E47090 /* FScriptCore-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "FScriptCore-Info.plist"; path = "iOS/FScriptCore-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* FScriptDemo_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FScriptDemo_Prefix.pch; path = iOS/FScriptDemo_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* FScriptDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "FScriptDemo-Info.plist"; path = "iOS/FScriptDemo-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		F12153A215FCEB2C00008418 /* libFScript.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFScript.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F12153A615FCEB2D00008418 /* FScript-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "FScript-Prefix.pch"; path = "FScript/FScript-Prefix.pch"; sourceTree = "<group>"; };
 		F14E12BF13FADAA800A8A21D /* Array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Array.h; sourceTree = "<group>"; };
 		F14E12C013FADAA800A8A21D /* Array.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Array.m; sourceTree = "<group>"; };
 		F14E12C113FADAA800A8A21D /* ArrayPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayPrivate.h; sourceTree = "<group>"; };
@@ -348,11 +409,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F121541315FCEC0000008418 /* libFScript.a in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				F14E14F913FADD9200A8A21D /* CoreData.framework in Frameworks */,
 				F14E15E813FAEFD500A8A21D /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F121539F15FCEB2C00008418 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F121540D15FCEBB100008418 /* CoreGraphics.framework in Frameworks */,
+				F12153A315FCEB2C00008418 /* Foundation.framework in Frameworks */,
+				F121540E15FCEBB600008418 /* UIKit.framework in Frameworks */,
+				F121540F15FCEBBB00008418 /* CoreData.framework in Frameworks */,
+				F121541015FCEBC100008418 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,7 +448,8 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D6058910D05DD3D006BFB54 /* FScriptCore.app */,
+				1D6058910D05DD3D006BFB54 /* FScriptDemo.app */,
+				F12153A215FCEB2C00008418 /* libFScript.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -396,7 +471,8 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				32CA4F630368D1EE00C91783 /* FScriptCore_Prefix.pch */,
+				32CA4F630368D1EE00C91783 /* FScriptDemo_Prefix.pch */,
+				F12153A615FCEB2D00008418 /* FScript-Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
 			name = "Other Sources";
@@ -406,7 +482,7 @@
 			isa = PBXGroup;
 			children = (
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
-				8D1107310486CEB800E47090 /* FScriptCore-Info.plist */,
+				8D1107310486CEB800E47090 /* FScriptDemo-Info.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -426,201 +502,201 @@
 		F14E12BE13FADA9900A8A21D /* FScriptFramework */ = {
 			isa = PBXGroup;
 			children = (
+				F14E12E513FADAA800A8A21D /* constantsDictionary */,
+				F14E133F13FADAA800A8A21D /* FScriptDict.dic */,
 				F14E12BF13FADAA800A8A21D /* Array.h */,
-				F14E12C013FADAA800A8A21D /* Array.m */,
 				F14E12C113FADAA800A8A21D /* ArrayPrivate.h */,
 				F14E12C213FADAA800A8A21D /* ArrayRep.h */,
 				F14E12C313FADAA800A8A21D /* ArrayRepBoolean.h */,
-				F14E12C413FADAA800A8A21D /* ArrayRepBoolean.m */,
 				F14E12C913FADAA800A8A21D /* ArrayRepDouble.h */,
-				F14E12CA13FADAA800A8A21D /* ArrayRepDouble.m */,
 				F14E12CB13FADAA800A8A21D /* ArrayRepEmpty.h */,
-				F14E12CC13FADAA800A8A21D /* ArrayRepEmpty.m */,
 				F14E12CD13FADAA800A8A21D /* ArrayRepFetchRequest.h */,
-				F14E12CE13FADAA800A8A21D /* ArrayRepFetchRequest.m */,
 				F14E12CF13FADAA800A8A21D /* ArrayRepId.h */,
-				F14E12D013FADAA800A8A21D /* ArrayRepId.m */,
 				F14E12D313FADAA800A8A21D /* Block.h */,
-				F14E12D413FADAA800A8A21D /* Block.m */,
 				F14E12D913FADAA800A8A21D /* BlockPrivate.h */,
 				F14E12DA13FADAA800A8A21D /* BlockRep.h */,
-				F14E12DB13FADAA800A8A21D /* BlockRep.m */,
 				F14E12DC13FADAA800A8A21D /* BlockSignature.h */,
 				F14E12DD13FADAA800A8A21D /* BlockStackElem.h */,
-				F14E12DE13FADAA800A8A21D /* BlockStackElem.m */,
 				F14E12DF13FADAA800A8A21D /* build_config.h */,
 				F14E12E313FADAA800A8A21D /* CompiledCodeNode.h */,
-				F14E12E413FADAA800A8A21D /* CompiledCodeNode.m */,
-				F14E12E513FADAA800A8A21D /* constantsDictionary */,
 				F14E12EC13FADAA800A8A21D /* FSArchiver.h */,
-				F14E12ED13FADAA800A8A21D /* FSArchiver.m */,
 				F14E12EE13FADAA800A8A21D /* FSArray.h */,
-				F14E12EF13FADAA800A8A21D /* FSArray.m */,
 				F14E12F013FADAA800A8A21D /* FSArrayEnumerator.h */,
-				F14E12F113FADAA800A8A21D /* FSArrayEnumerator.m */,
 				F14E12F213FADAA800A8A21D /* FSAssociation.h */,
-				F14E12F313FADAA800A8A21D /* FSAssociation.m */,
 				F14E12F813FADAA800A8A21D /* FSBlock.h */,
-				F14E12F913FADAA800A8A21D /* FSBlock.m */,
 				F14E12FA13FADAA800A8A21D /* FSBlockCompilationResult.h */,
-				F14E12FB13FADAA800A8A21D /* FSBlockCompilationResult.m */,
 				F14E12FC13FADAA800A8A21D /* FSBoolean.h */,
-				F14E12FD13FADAA800A8A21D /* FSBoolean.m */,
 				F14E12FE13FADAA800A8A21D /* FSBooleanPrivate.h */,
 				F14E12FF13FADAA800A8A21D /* FSClassDefinition.h */,
-				F14E130013FADAA800A8A21D /* FSClassDefinition.m */,
 				F14E130113FADAA800A8A21D /* FSCNArray.h */,
-				F14E130213FADAA800A8A21D /* FSCNArray.m */,
 				F14E130313FADAA800A8A21D /* FSCNAssignment.h */,
-				F14E130413FADAA800A8A21D /* FSCNAssignment.m */,
 				F14E130513FADAA800A8A21D /* FSCNBase.h */,
-				F14E130613FADAA800A8A21D /* FSCNBase.m */,
 				F14E130713FADAA800A8A21D /* FSCNBinaryMessage.h */,
-				F14E130813FADAA800A8A21D /* FSCNBinaryMessage.m */,
 				F14E130913FADAA800A8A21D /* FSCNBlock.h */,
-				F14E130A13FADAA800A8A21D /* FSCNBlock.m */,
 				F14E130B13FADAA800A8A21D /* FSCNCascade.h */,
-				F14E130C13FADAA800A8A21D /* FSCNCascade.m */,
 				F14E130D13FADAA800A8A21D /* FSCNCategory.h */,
-				F14E130E13FADAA800A8A21D /* FSCNCategory.m */,
 				F14E130F13FADAA800A8A21D /* FSCNClassDefinition.h */,
-				F14E131013FADAA800A8A21D /* FSCNClassDefinition.m */,
 				F14E131113FADAA800A8A21D /* FSCNDictionary.h */,
-				F14E131213FADAA800A8A21D /* FSCNDictionary.m */,
 				F14E131313FADAA800A8A21D /* FSCNIdentifier.h */,
-				F14E131413FADAA800A8A21D /* FSCNIdentifier.m */,
 				F14E131513FADAA800A8A21D /* FSCNKeywordMessage.h */,
-				F14E131613FADAA800A8A21D /* FSCNKeywordMessage.m */,
 				F14E131713FADAA800A8A21D /* FSCNMessage.h */,
-				F14E131813FADAA800A8A21D /* FSCNMessage.m */,
 				F14E131913FADAA800A8A21D /* FSCNMethod.h */,
-				F14E131A13FADAA800A8A21D /* FSCNMethod.m */,
 				F14E131B13FADAA800A8A21D /* FSCNPrecomputedObject.h */,
-				F14E131C13FADAA800A8A21D /* FSCNPrecomputedObject.m */,
 				F14E131D13FADAA800A8A21D /* FSCNReturn.h */,
-				F14E131E13FADAA800A8A21D /* FSCNReturn.m */,
 				F14E131F13FADAA800A8A21D /* FSCNStatementList.h */,
-				F14E132013FADAA800A8A21D /* FSCNStatementList.m */,
 				F14E132113FADAA800A8A21D /* FSCNSuper.h */,
-				F14E132213FADAA800A8A21D /* FSCNSuper.m */,
 				F14E132313FADAA800A8A21D /* FSCNUnaryMessage.h */,
-				F14E132413FADAA800A8A21D /* FSCNUnaryMessage.m */,
 				F14E132F13FADAA800A8A21D /* FSCommandHistory.h */,
-				F14E133013FADAA800A8A21D /* FSCommandHistory.m */,
 				F14E133113FADAA800A8A21D /* FSCompilationResult.h */,
-				F14E133213FADAA800A8A21D /* FSCompilationResult.m */,
 				F14E133313FADAA800A8A21D /* FSCompiler.h */,
-				F14E133413FADAA800A8A21D /* FSCompiler.m */,
 				F14E133A13FADAA800A8A21D /* FSConstantsInitialization.h */,
-				F14E133B13FADAA800A8A21D /* FSConstantsInitialization.m */,
 				F14E133E13FADAA800A8A21D /* FScript.h */,
-				F14E133F13FADAA800A8A21D /* FScriptDict.dic */,
 				F14E134013FADAA800A8A21D /* FScriptFunctions.h */,
-				F14E134113FADAA800A8A21D /* FScriptFunctions.m */,
 				F14E134913FADAA800A8A21D /* FSError.h */,
-				F14E134A13FADAA800A8A21D /* FSError.m */,
 				F14E134B13FADAA900A8A21D /* FSExecEngine.h */,
-				F14E134C13FADAA900A8A21D /* FSExecEngine.m */,
 				F14E134D13FADAA900A8A21D /* FSExecutor.h */,
-				F14E134E13FADAA900A8A21D /* FSExecutor.m */,
 				F14E135313FADAA900A8A21D /* FSGenericPointer.h */,
-				F14E135413FADAA900A8A21D /* FSGenericPointer.m */,
 				F14E135513FADAA900A8A21D /* FSGenericPointerPrivate.h */,
 				F14E135613FADAA900A8A21D /* FSGlobalScope.h */,
-				F14E135713FADAA900A8A21D /* FSGlobalScope.m */,
 				F14E135813FADAA900A8A21D /* FSIdentifierFormatter.h */,
-				F14E135913FADAA900A8A21D /* FSIdentifierFormatter.m */,
 				F14E135F13FADAA900A8A21D /* FSInterpreter.h */,
-				F14E136013FADAA900A8A21D /* FSInterpreter.m */,
 				F14E136213FADAA900A8A21D /* FSInterpreterResult.h */,
-				F14E136313FADAA900A8A21D /* FSInterpreterResult.m */,
 				F14E136413FADAA900A8A21D /* FSInterpreterResultPrivate.h */,
 				F14E136913FADAA900A8A21D /* FSKeyedArchiver.h */,
-				F14E136A13FADAA900A8A21D /* FSKeyedArchiver.m */,
 				F14E136B13FADAA900A8A21D /* FSKeyedUnarchiver.h */,
-				F14E136C13FADAA900A8A21D /* FSKeyedUnarchiver.m */,
 				F14E137013FADAA900A8A21D /* FSMethod.h */,
-				F14E137113FADAA900A8A21D /* FSMethod-iOS.m */,
 				F14E137213FADAA900A8A21D /* FSMiscTools.h */,
-				F14E137313FADAA900A8A21D /* FSMiscTools.m */,
 				F14E137713FADAA900A8A21D /* FSMsgContext.h */,
-				F14E137813FADAA900A8A21D /* FSMsgContext.m */,
 				F14E137913FADAA900A8A21D /* FSNamedNumber.h */,
-				F14E137A13FADAA900A8A21D /* FSNamedNumber.m */,
 				F14E137B13FADAA900A8A21D /* FSNewlyAllocatedObjectHolder.h */,
-				F14E137C13FADAA900A8A21D /* FSNewlyAllocatedObjectHolder.m */,
 				F14E137F13FADAA900A8A21D /* FSNSArray.h */,
-				F14E138013FADAA900A8A21D /* FSNSArray.m */,
 				F14E138113FADAA900A8A21D /* FSNSArrayPrivate.h */,
 				F14E138213FADAA900A8A21D /* FSNSAttributedString.h */,
-				F14E138313FADAA900A8A21D /* FSNSAttributedString.m */,
 				F14E138413FADAA900A8A21D /* FSNSDate.h */,
-				F14E138513FADAA900A8A21D /* FSNSDate.m */,
 				F14E138613FADAA900A8A21D /* FSNSDictionary.h */,
-				F14E138713FADAA900A8A21D /* FSNSDictionary.m */,
 				F14E138A13FADAA900A8A21D /* FSNSFileHandle.h */,
-				F14E138B13FADAA900A8A21D /* FSNSFileHandle.m */,
 				F14E139013FADAA900A8A21D /* FSNSManagedObjectContext.h */,
-				F14E139113FADAA900A8A21D /* FSNSManagedObjectContext.m */,
 				F14E139213FADAA900A8A21D /* FSNSMutableArray.h */,
-				F14E139313FADAA900A8A21D /* FSNSMutableArray.m */,
 				F14E139413FADAA900A8A21D /* FSNSMutableDictionary.h */,
-				F14E139513FADAA900A8A21D /* FSNSMutableDictionary.m */,
 				F14E139613FADAA900A8A21D /* FSNSMutableString.h */,
-				F14E139713FADAA900A8A21D /* FSNSMutableString.m */,
 				F14E139813FADAA900A8A21D /* FSNSNumber.h */,
-				F14E139913FADAA900A8A21D /* FSNSNumber.m */,
 				F14E139A13FADAA900A8A21D /* FSNSObject.h */,
-				F14E139B13FADAA900A8A21D /* FSNSObject.m */,
 				F14E139C13FADAA900A8A21D /* FSNSObjectPrivate.h */,
 				F14E139F13FADAA900A8A21D /* FSNSProxy.h */,
-				F14E13A013FADAA900A8A21D /* FSNSProxy.m */,
 				F14E13A113FADAA900A8A21D /* FSNSSet.h */,
-				F14E13A213FADAA900A8A21D /* FSNSSet.m */,
 				F14E13A313FADAA900A8A21D /* FSNSString.h */,
-				F14E13A413FADAA900A8A21D /* FSNSString.m */,
 				F14E13A513FADAA900A8A21D /* FSNSStringPrivate.h */,
 				F14E13A613FADAA900A8A21D /* FSNSValue-iOS.h */,
-				F14E13A713FADAA900A8A21D /* FSNSValue-iOS.m */,
 				F14E13A813FADAA900A8A21D /* FSNumber.h */,
-				F14E13A913FADAA900A8A21D /* FSNumber.m */,
 				F14E13C513FADAA900A8A21D /* FSObjectFormatter.h */,
-				F14E13C613FADAA900A8A21D /* FSObjectFormatter.m */,
 				F14E13C713FADAA900A8A21D /* FSObjectPointer.h */,
-				F14E13C813FADAA900A8A21D /* FSObjectPointer.m */,
 				F14E13C913FADAA900A8A21D /* FSObjectPointerPrivate.h */,
 				F14E13CA13FADAA900A8A21D /* FSPattern.h */,
-				F14E13CB13FADAA900A8A21D /* FSPattern.m */,
 				F14E13CE13FADAA900A8A21D /* FSPointer.h */,
-				F14E13CF13FADAA900A8A21D /* FSPointer.m */,
 				F14E13D013FADAA900A8A21D /* FSPointerPrivate.h */,
 				F14E13D513FADAA900A8A21D /* FSReplacementForCoderForClass.h */,
-				F14E13D613FADAA900A8A21D /* FSReplacementForCoderForClass.m */,
 				F14E13D713FADAA900A8A21D /* FSReplacementForCoderForNilInArray.h */,
-				F14E13D813FADAA900A8A21D /* FSReplacementForCoderForNilInArray.m */,
 				F14E13D913FADAA900A8A21D /* FSReturnSignal.h */,
-				F14E13DA13FADAA900A8A21D /* FSReturnSignal.m */,
 				F14E13DB13FADAA900A8A21D /* FSSymbolTable.h */,
-				F14E13DC13FADAA900A8A21D /* FSSymbolTable.m */,
 				F14E13DD13FADAA900A8A21D /* FSSystem.h */,
-				F14E13DE13FADAA900A8A21D /* FSSystem.m */,
 				F14E13DF13FADAA900A8A21D /* FSSystemPrivate.h */,
 				F14E13E513FADAA900A8A21D /* FSTranscript.h */,
-				F14E13E613FADAA900A8A21D /* FSTranscript.m */,
 				F14E13E713FADAA900A8A21D /* FSUnarchiver.h */,
-				F14E13E813FADAA900A8A21D /* FSUnarchiver.m */,
 				F14E13E913FADAA900A8A21D /* FSVoid.h */,
-				F14E13EA13FADAA900A8A21D /* FSVoid.m */,
 				F14E13EB13FADAA900A8A21D /* FSVoidPrivate.h */,
 				F14E13F413FADAA900A8A21D /* MessagePatternCodeNode.h */,
-				F14E13F513FADAA900A8A21D /* MessagePatternCodeNode.m */,
 				F14E13F613FADAA900A8A21D /* Number.h */,
-				F14E13F713FADAA900A8A21D /* Number.m */,
 				F14E13F813FADAA900A8A21D /* NumberPrivate.h */,
 				F14E13F913FADAA900A8A21D /* Pointer.h */,
-				F14E13FA13FADAA900A8A21D /* Pointer.m */,
 				F14E13FB13FADAA900A8A21D /* PointerPrivate.h */,
 				F14E13FF13FADAA900A8A21D /* Space.h */,
+				F14E12C013FADAA800A8A21D /* Array.m */,
+				F14E12C413FADAA800A8A21D /* ArrayRepBoolean.m */,
+				F14E12CA13FADAA800A8A21D /* ArrayRepDouble.m */,
+				F14E12CC13FADAA800A8A21D /* ArrayRepEmpty.m */,
+				F14E12CE13FADAA800A8A21D /* ArrayRepFetchRequest.m */,
+				F14E12D013FADAA800A8A21D /* ArrayRepId.m */,
+				F14E12D413FADAA800A8A21D /* Block.m */,
+				F14E12DB13FADAA800A8A21D /* BlockRep.m */,
+				F14E12DE13FADAA800A8A21D /* BlockStackElem.m */,
+				F14E12E413FADAA800A8A21D /* CompiledCodeNode.m */,
+				F14E12ED13FADAA800A8A21D /* FSArchiver.m */,
+				F14E12EF13FADAA800A8A21D /* FSArray.m */,
+				F14E12F113FADAA800A8A21D /* FSArrayEnumerator.m */,
+				F14E12F313FADAA800A8A21D /* FSAssociation.m */,
+				F14E12F913FADAA800A8A21D /* FSBlock.m */,
+				F14E12FB13FADAA800A8A21D /* FSBlockCompilationResult.m */,
+				F14E12FD13FADAA800A8A21D /* FSBoolean.m */,
+				F14E130013FADAA800A8A21D /* FSClassDefinition.m */,
+				F14E130213FADAA800A8A21D /* FSCNArray.m */,
+				F14E130413FADAA800A8A21D /* FSCNAssignment.m */,
+				F14E130613FADAA800A8A21D /* FSCNBase.m */,
+				F14E130813FADAA800A8A21D /* FSCNBinaryMessage.m */,
+				F14E130A13FADAA800A8A21D /* FSCNBlock.m */,
+				F14E130C13FADAA800A8A21D /* FSCNCascade.m */,
+				F14E130E13FADAA800A8A21D /* FSCNCategory.m */,
+				F14E131013FADAA800A8A21D /* FSCNClassDefinition.m */,
+				F14E131213FADAA800A8A21D /* FSCNDictionary.m */,
+				F14E131413FADAA800A8A21D /* FSCNIdentifier.m */,
+				F14E131613FADAA800A8A21D /* FSCNKeywordMessage.m */,
+				F14E131813FADAA800A8A21D /* FSCNMessage.m */,
+				F14E131A13FADAA800A8A21D /* FSCNMethod.m */,
+				F14E131C13FADAA800A8A21D /* FSCNPrecomputedObject.m */,
+				F14E131E13FADAA800A8A21D /* FSCNReturn.m */,
+				F14E132013FADAA800A8A21D /* FSCNStatementList.m */,
+				F14E132213FADAA800A8A21D /* FSCNSuper.m */,
+				F14E132413FADAA800A8A21D /* FSCNUnaryMessage.m */,
+				F14E133013FADAA800A8A21D /* FSCommandHistory.m */,
+				F14E133213FADAA800A8A21D /* FSCompilationResult.m */,
+				F14E133413FADAA800A8A21D /* FSCompiler.m */,
+				F14E133B13FADAA800A8A21D /* FSConstantsInitialization.m */,
+				F14E134113FADAA800A8A21D /* FScriptFunctions.m */,
+				F14E134A13FADAA800A8A21D /* FSError.m */,
+				F14E134C13FADAA900A8A21D /* FSExecEngine.m */,
+				F14E134E13FADAA900A8A21D /* FSExecutor.m */,
+				F14E135413FADAA900A8A21D /* FSGenericPointer.m */,
+				F14E135713FADAA900A8A21D /* FSGlobalScope.m */,
+				F14E135913FADAA900A8A21D /* FSIdentifierFormatter.m */,
+				F14E136013FADAA900A8A21D /* FSInterpreter.m */,
+				F14E136313FADAA900A8A21D /* FSInterpreterResult.m */,
+				F14E136A13FADAA900A8A21D /* FSKeyedArchiver.m */,
+				F14E136C13FADAA900A8A21D /* FSKeyedUnarchiver.m */,
+				F14E137113FADAA900A8A21D /* FSMethod-iOS.m */,
+				F14E137313FADAA900A8A21D /* FSMiscTools.m */,
+				F14E137813FADAA900A8A21D /* FSMsgContext.m */,
+				F14E137A13FADAA900A8A21D /* FSNamedNumber.m */,
+				F14E137C13FADAA900A8A21D /* FSNewlyAllocatedObjectHolder.m */,
+				F14E138013FADAA900A8A21D /* FSNSArray.m */,
+				F14E138313FADAA900A8A21D /* FSNSAttributedString.m */,
+				F14E138513FADAA900A8A21D /* FSNSDate.m */,
+				F14E138713FADAA900A8A21D /* FSNSDictionary.m */,
+				F14E138B13FADAA900A8A21D /* FSNSFileHandle.m */,
+				F14E139113FADAA900A8A21D /* FSNSManagedObjectContext.m */,
+				F14E139313FADAA900A8A21D /* FSNSMutableArray.m */,
+				F14E139513FADAA900A8A21D /* FSNSMutableDictionary.m */,
+				F14E139713FADAA900A8A21D /* FSNSMutableString.m */,
+				F14E139913FADAA900A8A21D /* FSNSNumber.m */,
+				F14E139B13FADAA900A8A21D /* FSNSObject.m */,
+				F14E13A013FADAA900A8A21D /* FSNSProxy.m */,
+				F14E13A213FADAA900A8A21D /* FSNSSet.m */,
+				F14E13A413FADAA900A8A21D /* FSNSString.m */,
+				F14E13A713FADAA900A8A21D /* FSNSValue-iOS.m */,
+				F14E13A913FADAA900A8A21D /* FSNumber.m */,
+				F14E13C613FADAA900A8A21D /* FSObjectFormatter.m */,
+				F14E13C813FADAA900A8A21D /* FSObjectPointer.m */,
+				F14E13CB13FADAA900A8A21D /* FSPattern.m */,
+				F14E13CF13FADAA900A8A21D /* FSPointer.m */,
+				F14E13D613FADAA900A8A21D /* FSReplacementForCoderForClass.m */,
+				F14E13D813FADAA900A8A21D /* FSReplacementForCoderForNilInArray.m */,
+				F14E13DA13FADAA900A8A21D /* FSReturnSignal.m */,
+				F14E13DC13FADAA900A8A21D /* FSSymbolTable.m */,
+				F14E13DE13FADAA900A8A21D /* FSSystem.m */,
+				F14E13E613FADAA900A8A21D /* FSTranscript.m */,
+				F14E13E813FADAA900A8A21D /* FSUnarchiver.m */,
+				F14E13EA13FADAA900A8A21D /* FSVoid.m */,
+				F14E13F513FADAA900A8A21D /* MessagePatternCodeNode.m */,
+				F14E13F713FADAA900A8A21D /* Number.m */,
+				F14E13FA13FADAA900A8A21D /* Pointer.m */,
 				F14E140013FADAA900A8A21D /* Space.m */,
 			);
 			path = FScriptFramework;
@@ -651,10 +727,51 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		F121541415FCED7F00008418 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F121541B15FCEDFA00008418 /* FScript.h in Headers */,
+				F121541C15FCEDFA00008418 /* FSGenericPointer.h in Headers */,
+				F121541D15FCEDFA00008418 /* FSInterpreter.h in Headers */,
+				F121541E15FCEDFA00008418 /* FSInterpreterResult.h in Headers */,
+				F121541F15FCEDFA00008418 /* FSNSArray.h in Headers */,
+				F121542015FCEDFA00008418 /* FSNSAttributedString.h in Headers */,
+				F121542115FCEDFA00008418 /* FSNSDate.h in Headers */,
+				F121542215FCEDFA00008418 /* FSNSDictionary.h in Headers */,
+				F121542315FCEDFA00008418 /* FSNSManagedObjectContext.h in Headers */,
+				F121542415FCEDFA00008418 /* FSNSMutableArray.h in Headers */,
+				F121542515FCEDFA00008418 /* FSNSMutableDictionary.h in Headers */,
+				F121542615FCEDFA00008418 /* FSNSMutableString.h in Headers */,
+				F121542715FCEDFA00008418 /* FSNSNumber.h in Headers */,
+				F121542815FCEDFA00008418 /* FSNSObject.h in Headers */,
+				F121542915FCEDFA00008418 /* FSNSProxy.h in Headers */,
+				F121542A15FCEDFA00008418 /* FSNSSet.h in Headers */,
+				F121542B15FCEDFA00008418 /* FSNSString.h in Headers */,
+				F121542C15FCEDFA00008418 /* FSNSValue-iOS.h in Headers */,
+				F121542D15FCEDFA00008418 /* FSNumber.h in Headers */,
+				F121542E15FCEDFA00008418 /* FSObjectPointer.h in Headers */,
+				F121542F15FCEDFA00008418 /* FSPointer.h in Headers */,
+				F121543015FCEDFA00008418 /* FSSystem.h in Headers */,
+				F121543115FCEDFA00008418 /* FSVoid.h in Headers */,
+				F121543215FCEDFA00008418 /* Number.h in Headers */,
+				F121543315FCEDFA00008418 /* Pointer.h in Headers */,
+				F121541515FCEDB500008418 /* Array.h in Headers */,
+				F121541615FCEDB500008418 /* Block.h in Headers */,
+				F121541715FCEDB500008418 /* FSArray.h in Headers */,
+				F121541815FCEDB500008418 /* FSAssociation.h in Headers */,
+				F121541915FCEDB500008418 /* FSBlock.h in Headers */,
+				F121541A15FCEDB500008418 /* FSBoolean.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		1D6058900D05DD3D006BFB54 /* FScriptCore */ = {
+		1D6058900D05DD3D006BFB54 /* FScriptDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "FScriptCore" */;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "FScriptDemo" */;
 			buildPhases = (
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
@@ -663,11 +780,30 @@
 			buildRules = (
 			);
 			dependencies = (
+				F121541215FCEBF900008418 /* PBXTargetDependency */,
 			);
-			name = FScriptCore;
+			name = FScriptDemo;
 			productName = FScriptCore;
-			productReference = 1D6058910D05DD3D006BFB54 /* FScriptCore.app */;
+			productReference = 1D6058910D05DD3D006BFB54 /* FScriptDemo.app */;
 			productType = "com.apple.product-type.application";
+		};
+		F12153A115FCEB2C00008418 /* FScript */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F12153AB15FCEB2D00008418 /* Build configuration list for PBXNativeTarget "FScript" */;
+			buildPhases = (
+				F121539E15FCEB2C00008418 /* Sources */,
+				F121539F15FCEB2C00008418 /* Frameworks */,
+				F12153A015FCEB2C00008418 /* CopyFiles */,
+				F121541415FCED7F00008418 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FScript;
+			productName = FScript;
+			productReference = F12153A215FCEB2C00008418 /* libFScript.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -691,7 +827,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1D6058900D05DD3D006BFB54 /* FScriptCore */,
+				1D6058900D05DD3D006BFB54 /* FScriptDemo */,
+				F12153A115FCEB2C00008418 /* FScript */,
 			);
 		};
 /* End PBXProject section */
@@ -716,106 +853,121 @@
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* FScriptCoreAppDelegate.m in Sources */,
-				F14E141513FADAA900A8A21D /* Array.m in Sources */,
-				F14E141613FADAA900A8A21D /* ArrayRepBoolean.m in Sources */,
-				F14E141913FADAA900A8A21D /* ArrayRepDouble.m in Sources */,
-				F14E141A13FADAA900A8A21D /* ArrayRepEmpty.m in Sources */,
-				F14E141B13FADAA900A8A21D /* ArrayRepFetchRequest.m in Sources */,
-				F14E141C13FADAA900A8A21D /* ArrayRepId.m in Sources */,
-				F14E141F13FADAA900A8A21D /* Block.m in Sources */,
-				F14E142313FADAA900A8A21D /* BlockRep.m in Sources */,
-				F14E142413FADAA900A8A21D /* BlockStackElem.m in Sources */,
-				F14E142713FADAA900A8A21D /* CompiledCodeNode.m in Sources */,
-				F14E142D13FADAA900A8A21D /* FSArchiver.m in Sources */,
-				F14E142E13FADAA900A8A21D /* FSArray.m in Sources */,
-				F14E142F13FADAA900A8A21D /* FSArrayEnumerator.m in Sources */,
-				F14E143013FADAA900A8A21D /* FSAssociation.m in Sources */,
-				F14E143413FADAA900A8A21D /* FSBlock.m in Sources */,
-				F14E143513FADAA900A8A21D /* FSBlockCompilationResult.m in Sources */,
-				F14E143613FADAA900A8A21D /* FSBoolean.m in Sources */,
-				F14E143713FADAA900A8A21D /* FSClassDefinition.m in Sources */,
-				F14E143813FADAA900A8A21D /* FSCNArray.m in Sources */,
-				F14E143913FADAA900A8A21D /* FSCNAssignment.m in Sources */,
-				F14E143A13FADAA900A8A21D /* FSCNBase.m in Sources */,
-				F14E143B13FADAA900A8A21D /* FSCNBinaryMessage.m in Sources */,
-				F14E143C13FADAA900A8A21D /* FSCNBlock.m in Sources */,
-				F14E143D13FADAA900A8A21D /* FSCNCascade.m in Sources */,
-				F14E143E13FADAA900A8A21D /* FSCNCategory.m in Sources */,
-				F14E143F13FADAA900A8A21D /* FSCNClassDefinition.m in Sources */,
-				F14E144013FADAA900A8A21D /* FSCNDictionary.m in Sources */,
-				F14E144113FADAA900A8A21D /* FSCNIdentifier.m in Sources */,
-				F14E144213FADAA900A8A21D /* FSCNKeywordMessage.m in Sources */,
-				F14E144313FADAA900A8A21D /* FSCNMessage.m in Sources */,
-				F14E144413FADAA900A8A21D /* FSCNMethod.m in Sources */,
-				F14E144513FADAA900A8A21D /* FSCNPrecomputedObject.m in Sources */,
-				F14E144613FADAA900A8A21D /* FSCNReturn.m in Sources */,
-				F14E144713FADAA900A8A21D /* FSCNStatementList.m in Sources */,
-				F14E144813FADAA900A8A21D /* FSCNSuper.m in Sources */,
-				F14E144913FADAA900A8A21D /* FSCNUnaryMessage.m in Sources */,
-				F14E145013FADAA900A8A21D /* FSCommandHistory.m in Sources */,
-				F14E145113FADAA900A8A21D /* FSCompilationResult.m in Sources */,
-				F14E145213FADAA900A8A21D /* FSCompiler.m in Sources */,
-				F14E145613FADAA900A8A21D /* FSConstantsInitialization.m in Sources */,
-				F14E145913FADAA900A8A21D /* FScriptFunctions.m in Sources */,
-				F14E145E13FADAA900A8A21D /* FSError.m in Sources */,
-				F14E145F13FADAA900A8A21D /* FSExecEngine.m in Sources */,
-				F14E146013FADAA900A8A21D /* FSExecutor.m in Sources */,
-				F14E146313FADAA900A8A21D /* FSGenericPointer.m in Sources */,
-				F14E146413FADAA900A8A21D /* FSGlobalScope.m in Sources */,
-				F14E146513FADAA900A8A21D /* FSIdentifierFormatter.m in Sources */,
-				F14E146913FADAA900A8A21D /* FSInterpreter.m in Sources */,
-				F14E146A13FADAA900A8A21D /* FSInterpreterResult.m in Sources */,
-				F14E146C13FADAA900A8A21D /* FSKeyedArchiver.m in Sources */,
-				F14E146D13FADAA900A8A21D /* FSKeyedUnarchiver.m in Sources */,
-				F14E147013FADAA900A8A21D /* FSMethod-iOS.m in Sources */,
-				F14E147113FADAA900A8A21D /* FSMiscTools.m in Sources */,
-				F14E147413FADAA900A8A21D /* FSMsgContext.m in Sources */,
-				F14E147513FADAA900A8A21D /* FSNamedNumber.m in Sources */,
-				F14E147613FADAA900A8A21D /* FSNewlyAllocatedObjectHolder.m in Sources */,
-				F14E147813FADAA900A8A21D /* FSNSArray.m in Sources */,
-				F14E147913FADAA900A8A21D /* FSNSAttributedString.m in Sources */,
-				F14E147A13FADAA900A8A21D /* FSNSDate.m in Sources */,
-				F14E147B13FADAA900A8A21D /* FSNSDictionary.m in Sources */,
-				F14E147D13FADAA900A8A21D /* FSNSFileHandle.m in Sources */,
-				F14E148013FADAA900A8A21D /* FSNSManagedObjectContext.m in Sources */,
-				F14E148113FADAA900A8A21D /* FSNSMutableArray.m in Sources */,
-				F14E148213FADAA900A8A21D /* FSNSMutableDictionary.m in Sources */,
-				F14E148313FADAA900A8A21D /* FSNSMutableString.m in Sources */,
-				F14E148413FADAA900A8A21D /* FSNSNumber.m in Sources */,
-				F14E148513FADAA900A8A21D /* FSNSObject.m in Sources */,
-				F14E148713FADAA900A8A21D /* FSNSProxy.m in Sources */,
-				F14E148813FADAA900A8A21D /* FSNSSet.m in Sources */,
-				F14E148913FADAA900A8A21D /* FSNSString.m in Sources */,
-				F14E148A13FADAA900A8A21D /* FSNSValue-iOS.m in Sources */,
-				F14E148B13FADAA900A8A21D /* FSNumber.m in Sources */,
-				F14E149A13FADAA900A8A21D /* FSObjectFormatter.m in Sources */,
-				F14E149B13FADAA900A8A21D /* FSObjectPointer.m in Sources */,
-				F14E149C13FADAA900A8A21D /* FSPattern.m in Sources */,
-				F14E149E13FADAA900A8A21D /* FSPointer.m in Sources */,
-				F14E14A113FADAA900A8A21D /* FSReplacementForCoderForClass.m in Sources */,
-				F14E14A213FADAA900A8A21D /* FSReplacementForCoderForNilInArray.m in Sources */,
-				F14E14A313FADAA900A8A21D /* FSReturnSignal.m in Sources */,
-				F14E14A413FADAA900A8A21D /* FSSymbolTable.m in Sources */,
-				F14E14A513FADAA900A8A21D /* FSSystem.m in Sources */,
-				F14E14A913FADAA900A8A21D /* FSTranscript.m in Sources */,
-				F14E14AA13FADAA900A8A21D /* FSUnarchiver.m in Sources */,
-				F14E14AB13FADAA900A8A21D /* FSVoid.m in Sources */,
-				F14E14B213FADAA900A8A21D /* MessagePatternCodeNode.m in Sources */,
-				F14E14B313FADAA900A8A21D /* Number.m in Sources */,
-				F14E14B413FADAA900A8A21D /* Pointer.m in Sources */,
-				F14E14B713FADAA900A8A21D /* Space.m in Sources */,
-				F14E14E213FADCB200A8A21D /* ffi-iphone.c in Sources */,
-				F14E14E313FADCB200A8A21D /* ffi-iphonesimulator.c in Sources */,
-				F14E14E413FADCB200A8A21D /* iphone-sysv.S in Sources */,
-				F14E14E513FADCB200A8A21D /* iphonesimulator-darwin.S in Sources */,
-				F14E14E713FADCB200A8A21D /* prep_cif.c in Sources */,
-				F14E14E813FADCB200A8A21D /* raw_api.c in Sources */,
-				F14E14E913FADCB200A8A21D /* types.c in Sources */,
 				F14E157413FAEB3800A8A21D /* iOS-glue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F121539E15FCEB2C00008418 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F12153AE15FCEB6200008418 /* prep_cif.c in Sources */,
+				F12153AF15FCEB6200008418 /* raw_api.c in Sources */,
+				F12153B015FCEB6200008418 /* types.c in Sources */,
+				F12153B115FCEB6A00008418 /* iphone-sysv.S in Sources */,
+				F12153B215FCEB6A00008418 /* iphonesimulator-darwin.S in Sources */,
+				F12153B315FCEB6F00008418 /* ffi-iphone.c in Sources */,
+				F12153B415FCEB6F00008418 /* ffi-iphonesimulator.c in Sources */,
+				F12153B515FCEB9000008418 /* Array.m in Sources */,
+				F12153B615FCEB9000008418 /* ArrayRepBoolean.m in Sources */,
+				F12153B715FCEB9000008418 /* ArrayRepDouble.m in Sources */,
+				F12153B815FCEB9000008418 /* ArrayRepEmpty.m in Sources */,
+				F12153B915FCEB9000008418 /* ArrayRepFetchRequest.m in Sources */,
+				F12153BA15FCEB9000008418 /* ArrayRepId.m in Sources */,
+				F12153BB15FCEB9000008418 /* Block.m in Sources */,
+				F12153BC15FCEB9000008418 /* BlockRep.m in Sources */,
+				F12153BD15FCEB9000008418 /* BlockStackElem.m in Sources */,
+				F12153BE15FCEB9000008418 /* CompiledCodeNode.m in Sources */,
+				F12153BF15FCEB9000008418 /* FSArchiver.m in Sources */,
+				F12153C015FCEB9000008418 /* FSArray.m in Sources */,
+				F12153C115FCEB9000008418 /* FSArrayEnumerator.m in Sources */,
+				F12153C215FCEB9000008418 /* FSAssociation.m in Sources */,
+				F12153C315FCEB9000008418 /* FSBlock.m in Sources */,
+				F12153C415FCEB9000008418 /* FSBlockCompilationResult.m in Sources */,
+				F12153C515FCEB9000008418 /* FSBoolean.m in Sources */,
+				F12153C615FCEB9000008418 /* FSClassDefinition.m in Sources */,
+				F12153C715FCEB9000008418 /* FSCNArray.m in Sources */,
+				F12153C815FCEB9000008418 /* FSCNAssignment.m in Sources */,
+				F12153C915FCEB9000008418 /* FSCNBase.m in Sources */,
+				F12153CA15FCEB9000008418 /* FSCNBinaryMessage.m in Sources */,
+				F12153CB15FCEB9000008418 /* FSCNBlock.m in Sources */,
+				F12153CC15FCEB9000008418 /* FSCNCascade.m in Sources */,
+				F12153CD15FCEB9000008418 /* FSCNCategory.m in Sources */,
+				F12153CE15FCEB9000008418 /* FSCNClassDefinition.m in Sources */,
+				F12153CF15FCEB9000008418 /* FSCNDictionary.m in Sources */,
+				F12153D015FCEB9000008418 /* FSCNIdentifier.m in Sources */,
+				F12153D115FCEB9000008418 /* FSCNKeywordMessage.m in Sources */,
+				F12153D215FCEB9000008418 /* FSCNMessage.m in Sources */,
+				F12153D315FCEB9000008418 /* FSCNMethod.m in Sources */,
+				F12153D415FCEB9000008418 /* FSCNPrecomputedObject.m in Sources */,
+				F12153D515FCEB9000008418 /* FSCNReturn.m in Sources */,
+				F12153D615FCEB9000008418 /* FSCNStatementList.m in Sources */,
+				F12153D715FCEB9000008418 /* FSCNSuper.m in Sources */,
+				F12153D815FCEB9000008418 /* FSCNUnaryMessage.m in Sources */,
+				F12153D915FCEB9000008418 /* FSCommandHistory.m in Sources */,
+				F12153DA15FCEB9000008418 /* FSCompilationResult.m in Sources */,
+				F12153DB15FCEB9000008418 /* FSCompiler.m in Sources */,
+				F12153DC15FCEB9000008418 /* FSConstantsInitialization.m in Sources */,
+				F12153DD15FCEB9000008418 /* FScriptFunctions.m in Sources */,
+				F12153DE15FCEB9000008418 /* FSError.m in Sources */,
+				F12153DF15FCEB9000008418 /* FSExecEngine.m in Sources */,
+				F12153E015FCEB9000008418 /* FSExecutor.m in Sources */,
+				F12153E115FCEB9000008418 /* FSGenericPointer.m in Sources */,
+				F12153E215FCEB9000008418 /* FSGlobalScope.m in Sources */,
+				F12153E315FCEB9000008418 /* FSIdentifierFormatter.m in Sources */,
+				F12153E415FCEB9000008418 /* FSInterpreter.m in Sources */,
+				F12153E515FCEB9000008418 /* FSInterpreterResult.m in Sources */,
+				F12153E615FCEB9000008418 /* FSKeyedArchiver.m in Sources */,
+				F12153E715FCEB9000008418 /* FSKeyedUnarchiver.m in Sources */,
+				F12153E815FCEB9000008418 /* FSMethod-iOS.m in Sources */,
+				F12153E915FCEB9000008418 /* FSMiscTools.m in Sources */,
+				F12153EA15FCEB9000008418 /* FSMsgContext.m in Sources */,
+				F12153EB15FCEB9000008418 /* FSNamedNumber.m in Sources */,
+				F12153EC15FCEB9000008418 /* FSNewlyAllocatedObjectHolder.m in Sources */,
+				F12153ED15FCEB9000008418 /* FSNSArray.m in Sources */,
+				F12153EE15FCEB9000008418 /* FSNSAttributedString.m in Sources */,
+				F12153EF15FCEB9000008418 /* FSNSDate.m in Sources */,
+				F12153F015FCEB9000008418 /* FSNSDictionary.m in Sources */,
+				F12153F115FCEB9000008418 /* FSNSFileHandle.m in Sources */,
+				F12153F215FCEB9000008418 /* FSNSManagedObjectContext.m in Sources */,
+				F12153F315FCEB9000008418 /* FSNSMutableArray.m in Sources */,
+				F12153F415FCEB9000008418 /* FSNSMutableDictionary.m in Sources */,
+				F12153F515FCEB9000008418 /* FSNSMutableString.m in Sources */,
+				F12153F615FCEB9000008418 /* FSNSNumber.m in Sources */,
+				F12153F715FCEB9000008418 /* FSNSObject.m in Sources */,
+				F12153F815FCEB9000008418 /* FSNSProxy.m in Sources */,
+				F12153F915FCEB9000008418 /* FSNSSet.m in Sources */,
+				F12153FA15FCEB9000008418 /* FSNSString.m in Sources */,
+				F12153FB15FCEB9000008418 /* FSNSValue-iOS.m in Sources */,
+				F12153FC15FCEB9000008418 /* FSNumber.m in Sources */,
+				F12153FD15FCEB9000008418 /* FSObjectFormatter.m in Sources */,
+				F12153FE15FCEB9000008418 /* FSObjectPointer.m in Sources */,
+				F12153FF15FCEB9000008418 /* FSPattern.m in Sources */,
+				F121540015FCEB9000008418 /* FSPointer.m in Sources */,
+				F121540115FCEB9000008418 /* FSReplacementForCoderForClass.m in Sources */,
+				F121540215FCEB9000008418 /* FSReplacementForCoderForNilInArray.m in Sources */,
+				F121540315FCEB9000008418 /* FSReturnSignal.m in Sources */,
+				F121540415FCEB9000008418 /* FSSymbolTable.m in Sources */,
+				F121540515FCEB9000008418 /* FSSystem.m in Sources */,
+				F121540615FCEB9000008418 /* FSTranscript.m in Sources */,
+				F121540715FCEB9000008418 /* FSUnarchiver.m in Sources */,
+				F121540815FCEB9000008418 /* FSVoid.m in Sources */,
+				F121540915FCEB9000008418 /* MessagePatternCodeNode.m in Sources */,
+				F121540A15FCEB9000008418 /* Number.m in Sources */,
+				F121540B15FCEB9000008418 /* Pointer.m in Sources */,
+				F121540C15FCEB9000008418 /* Space.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F121541215FCEBF900008418 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F12153A115FCEB2C00008418 /* FScript */;
+			targetProxy = F121541115FCEBF900008418 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		1D6058940D05DD3E006BFB54 /* Debug */ = {
@@ -827,11 +979,12 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = iOS/FScriptCore_Prefix.pch;
+				GCC_PREFIX_HEADER = iOS/FScriptDemo_Prefix.pch;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = "iOS/FScriptCore-Info.plist";
-				PRODUCT_NAME = FScriptCore;
+				INFOPLIST_FILE = "iOS/FScriptDemo-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = FScriptDemo;
 			};
 			name = Debug;
 		};
@@ -842,11 +995,12 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = iOS/FScriptCore_Prefix.pch;
+				GCC_PREFIX_HEADER = iOS/FScriptDemo_Prefix.pch;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = "iOS/FScriptCore-Info.plist";
-				PRODUCT_NAME = FScriptCore;
+				INFOPLIST_FILE = "iOS/FScriptDemo-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = FScriptDemo;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -876,10 +1030,62 @@
 			};
 			name = Release;
 		};
+		F12153AC15FCEB2D00008418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/FScript.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FScript/FScript-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = /usr/local/include/FScript;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = /usr/local/include/FScript;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F12153AD15FCEB2D00008418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/FScript.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FScript/FScript-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = /usr/local/include/FScript;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = /usr/local/include/FScript;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "FScriptCore" */ = {
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "FScriptDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
@@ -896,6 +1102,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		F12153AB15FCEB2D00008418 /* Build configuration list for PBXNativeTarget "FScript" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F12153AC15FCEB2D00008418 /* Debug */,
+				F12153AD15FCEB2D00008418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
