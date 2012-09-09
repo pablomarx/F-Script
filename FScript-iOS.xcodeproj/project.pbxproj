@@ -13,6 +13,8 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		F117352515FD3C1900095EF8 /* FSVoid.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E13E913FADAA900A8A21D /* FSVoid.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F117352715FD3F7000095EF8 /* FSCompiler.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E133313FADAA800A8A21D /* FSCompiler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F13E4DEB15FCFA580078560A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		F13E4DF615FCFA7E0078560A /* ffi-iphone.c in Sources */ = {isa = PBXBuildFile; fileRef = F14E14D213FADCB200A8A21D /* ffi-iphone.c */; };
 		F13E4DF715FCFA7E0078560A /* ffi-iphonesimulator.c in Sources */ = {isa = PBXBuildFile; fileRef = F14E14D413FADCB200A8A21D /* ffi-iphonesimulator.c */; };
@@ -748,6 +750,8 @@
 				F153055515FD020B006AE515 /* FSNumber.h in Headers */,
 				F153055615FD020B006AE515 /* FSObjectPointer.h in Headers */,
 				F153055715FD020B006AE515 /* FSPointer.h in Headers */,
+				F117352715FD3F7000095EF8 /* FSCompiler.h in Headers */,
+				F117352515FD3C1900095EF8 /* FSVoid.h in Headers */,
 				F153055815FD020B006AE515 /* FSSystem.h in Headers */,
 				F153055915FD020B006AE515 /* Number.h in Headers */,
 				F153055A15FD020B006AE515 /* Pointer.h in Headers */,
